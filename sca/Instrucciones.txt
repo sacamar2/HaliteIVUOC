@@ -1,0 +1,12 @@
+ENTORNO CONDA Y DEPENDENCIAS
+	Si usáis conda podéis crear un entorno con archivo HaliteIVSCA.yml:
+		conda env create -f HaliteIVSCA.yml
+	De esta forma tendréis las dependencias para hacer que funcione todo el código, o al menos las librerias de referencia para descargarlas con pip u otro método.
+
+JUPYTER NOTEBOOKS
+	HaliteIV_SCA_videos: Genera un video que muestra la evolución de la densidad de Halite por pixel a lo largo de la partida.
+	HaliteIV_SCA_data: Visualiza unos cuantos datos de la partida.
+	
+SCRIPTS
+	submission.py: Este es el script que hace de bot. Si estoy en lo correcto, al subir un bot a Kaggle debe llamarse "submission.py".
+	HaliteIV_SCA_csv.py: Simula varias partidas y crea un csv en el que hay una columna con cada métrica de cada partida (3 métricas x 2 partidas = 6 columnas) y una fila por cada turno.
